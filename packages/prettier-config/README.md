@@ -1,11 +1,19 @@
-# `@nokon/prettier-config`
+## `@nokon/prettier-config`
 
-> TODO: description
+### Usage
+```sh
+    npm install @nokon/prettier-config --dev
+```
 
-## Usage
+Create the corresponding files and extend the configurations Prettier (.prettierrc):
 
 ```
-const prettierConfig = require('@nokon/prettier-config');
+    {
+        "prettier": "@nokon/prettier-config"
+    }
+```
 
-// TODO: DEMONSTRATE API
+```
+    const prettierConfig = require('@nokon/prettier-config');
+
 ```

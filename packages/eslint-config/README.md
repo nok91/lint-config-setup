@@ -1,11 +1,20 @@
-# `@nokon/eslint-config`
+## `@nokon/eslint-config`
 
-> TODO: description
+### Usage
+```sh
+    npm install @nokon/eslint-config --dev
+```
 
-## Usage
+Create the corresponding files and extend the configurations Eslint (.eslintrc):
 
 ```
-const eslintConfig = require('@nokon/eslint-config');
+    {
+        "extends": [
+            "@nokon/eslint-config"
+        ],
+    }
+```
 
-// TODO: DEMONSTRATE API
+```
+    const eslintConfig = require('@nokon/eslint-config');
 ```
