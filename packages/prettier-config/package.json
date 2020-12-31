@@ -1,0 +1,19 @@
+{
+  "name": "@nokon/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier Config Setup",
+  "author": "Mohammed <mohammed.nokri@itg.co.uk>",
+  "homepage": "https://github.com/nok91/lint-config-setup#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nok91/lint-config-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nok91/lint-config-setup/issues"
+  }
+}
