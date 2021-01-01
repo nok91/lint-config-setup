@@ -15,5 +15,8 @@
   },
   "bugs": {
     "url": "https://github.com/nok91/lint-config-setup/issues"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
   }
 }
