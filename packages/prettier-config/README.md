@@ -5,11 +5,12 @@
     npm install @nokon/prettier-config --dev
 ```
 
-Create the corresponding files and extend the configurations Prettier (.prettierrc):
+Create the corresponding files and extend the configurations Prettier (.prettierrc.js):
+ref: https://prettier.io/docs/en/configuration.html
 
 ```
-    {
-        "prettier": "@nokon/prettier-config"
+    module.exports = {
+        ...require("@nokon/prettier-config"),
     }
 ```
 
